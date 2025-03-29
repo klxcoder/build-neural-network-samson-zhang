@@ -92,3 +92,7 @@ def update_params(W1, b1, W2, b2, dW1, db1, dW2, db2, alpha):
 
 def get_predictions(A2):
     return np.argmax(A2, 0)
+
+def get_accuracy(predictions, Y):
+    print(predictions, Y)
+    return np.sum(predictions == Y) / Y.size
