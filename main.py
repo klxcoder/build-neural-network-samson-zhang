@@ -62,4 +62,7 @@ def forward_prop(W1, b1, W2, b2, X):
     A1 = ReLU(Z1)
     Z2 = W2.dot(A1) + b2
     A2 = softmax(Z2)
-    return Z1, A1, Z2, A2    
+    return Z1, A1, Z2, A2
+
+def ReLU_deriv(Z):
+    return Z > 0
