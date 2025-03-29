@@ -39,3 +39,6 @@ _,m_train = X_train.shape
 
 # print(X_train.shape) # (784, 41000)
 # print(m_train) # 41000
+
+# print(Y_train) # [7 1 7 ... 0 1 9]
+# print(Y_train.size) # 41000
