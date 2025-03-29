@@ -133,3 +133,7 @@ test_prediction(0, W1, b1, W2, b2)
 test_prediction(1, W1, b1, W2, b2)
 test_prediction(2, W1, b1, W2, b2)
 test_prediction(3, W1, b1, W2, b2)
+
+# Find the accuracy on the dev set
+dev_predictions = make_predictions(X_dev, W1, b1, W2, b2)
+get_accuracy(dev_predictions, Y_dev)
