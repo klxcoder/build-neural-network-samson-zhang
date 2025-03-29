@@ -18,3 +18,8 @@ conda activate nn
 ```bash
 poetry init --no-interaction
 ```
+
+# Add poetry dependencies
+```bash
+poetry add numpy pandas matplotlib
+```
