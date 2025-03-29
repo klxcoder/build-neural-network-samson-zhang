@@ -94,7 +94,7 @@ def get_predictions(A2):
     return np.argmax(A2, 0)
 
 def get_accuracy(predictions, Y):
-    print(predictions, Y)
+    # print(predictions, Y)
     return np.sum(predictions == Y) / Y.size
 
 def gradient_descent(X, Y, alpha, iterations):
@@ -136,4 +136,5 @@ test_prediction(3, W1, b1, W2, b2)
 
 # Find the accuracy on the dev set
 dev_predictions = make_predictions(X_dev, W1, b1, W2, b2)
-get_accuracy(dev_predictions, Y_dev)
+accuracy = get_accuracy(dev_predictions, Y_dev)
+print(accuracy)
