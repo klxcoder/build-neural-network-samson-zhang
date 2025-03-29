@@ -4,4 +4,8 @@ import matplotlib
 
 data = pd.read_csv('./kaggle/input/digit-recognizer/train.csv')
 
+# print(data)
+
+data = np.array(data)
+
 print(data)
