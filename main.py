@@ -137,4 +137,4 @@ test_prediction(3, W1, b1, W2, b2)
 # Find the accuracy on the dev set
 dev_predictions = make_predictions(X_dev, W1, b1, W2, b2)
 accuracy = get_accuracy(dev_predictions, Y_dev)
-print(accuracy)
+print(accuracy) # ~0.85
