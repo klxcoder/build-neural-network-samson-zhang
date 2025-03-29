@@ -23,3 +23,8 @@ poetry init --no-interaction
 ```bash
 poetry add numpy pandas matplotlib
 ```
+
+# Download kaggle data
+```bash
+kaggle competitions download -c digit-recognizer
+```
