@@ -42,3 +42,10 @@ _,m_train = X_train.shape
 
 # print(Y_train) # [7 1 7 ... 0 1 9]
 # print(Y_train.size) # 41000
+
+def init_params():
+    W1 = np.random.rand(10, 784) - 0.5
+    b1 = np.random.rand(10, 1) - 0.5
+    W2 = np.random.rand(10, 10) - 0.5
+    b2 = np.random.rand(10, 1) - 0.5
+    return W1, b1, W2, b2
