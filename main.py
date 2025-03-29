@@ -21,3 +21,5 @@ Answer: In the dataset, each row represents a digit image, and each image is 28x
 
 So, n = 784 (pixels) + 1 (label) = 785.
 """
+
+np.random.shuffle(data) # shuffle before splitting into dev and training sets
