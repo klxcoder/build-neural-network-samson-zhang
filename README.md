@@ -28,3 +28,8 @@ poetry add numpy pandas matplotlib
 ```bash
 kaggle competitions download -c digit-recognizer
 ```
+
+# Install mypy
+```bash
+poetry add mypy
+```
